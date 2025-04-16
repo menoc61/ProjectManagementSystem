@@ -4,6 +4,18 @@
 
 Cette application de gestion de projets d'entreprise a été développée en PHP/MySQL procédural selon les spécifications fournies. Elle permet de gérer l'ensemble du cycle de vie des projets, depuis la création des clients jusqu'à la facturation et le suivi des règlements.
 
+## Showcase de l'application
+
+Voici quelques captures d'écran pour présenter l'application :
+
+### Page de Connexion
+![Page de Connexion](assets/img/login_presentation.png)
+
+### Tableau de Bord
+![Tableau de Bord](assets/img/dashboard_presentation.png)
+
+Ces captures d'écran illustrent l'interface utilisateur et les fonctionnalités principales de l'application.
+
 ## Prérequis techniques
 
 - Serveur web (Apache, Nginx, etc.)
