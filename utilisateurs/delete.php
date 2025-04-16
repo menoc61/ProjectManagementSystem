@@ -53,8 +53,8 @@ $utilisateur = mysqli_fetch_assoc($checkResult);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Supprimer un Utilisateur - Gestion de Projets</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+<link href="../libs/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../libs/bootstrap-icons-1.10.0/font/bootstrap-icons.css"">
     <style>
         .sidebar {
             min-height: 100vh;
@@ -180,8 +180,7 @@ $utilisateur = mysqli_fetch_assoc($checkResult);
                         <div class="mb-4">
                             <p><strong>ID:</strong> <?php echo $utilisateur['IdUtilisateur']; ?></p>
                             <p><strong>Nom:</strong> <?php echo htmlspecialchars($utilisateur['NomUtilisateur']); ?></p>
-                            <p><strong>Email:</strong> <?php echo htmlspecialchars($utilisateur['EmailUtilisateur']); ?></p>
-                            <p><strong>Rôle:</strong> <?php echo $utilisateur['RoleUtilisateur'] == 'admin' ? 'Administrateur' : 'Personnel'; ?></p>
+                            <p><strong>Rôle:</strong> <?php echo $utilisateur['Role'] == 'admin' ? 'Administrateur' : 'Personnel'; ?></p>
                         </div>
                         
                         <div class="alert alert-warning">
@@ -199,6 +198,6 @@ $utilisateur = mysqli_fetch_assoc($checkResult);
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../libs/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

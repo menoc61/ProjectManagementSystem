@@ -108,8 +108,8 @@ L'application est livrée avec deux utilisateurs par défaut :
    - Mot de passe : admin123
 
 2. **Personnel**
-   - lOGIN : user
-   - Mot de passe : user123
+   - lOGIN : carole
+   - Mot de passe : carole123
 
 ## Responsive Design
 
